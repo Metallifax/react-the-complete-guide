@@ -4,11 +4,13 @@ import './App.css';
 class App extends Component {
   render() {
     return (
+      // Remember that the following code isn't HTML
       <div className="App">
         <h1>Hi, I'm a React App</h1>
-        <p>Hi I'm a simple change</p>
+        <p>This is really working!!</p>
       </div>
     );
+  // return React.createElement('div', {className:'App'}, React.createElement('h1', null, 'Does this work now?'));
   }
 }
 
